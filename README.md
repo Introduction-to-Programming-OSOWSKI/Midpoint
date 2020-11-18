@@ -1,11 +1,12 @@
 # **Midpoint**
 
 ## **Assignment Description**
-Create a method named midpoint that returns the midpoint between two given numbers.
+Given an int x and an int y, find the midpoint between x and y using a method called midpoint.  
+Assume that x < y always.
 
 ## **Example**
-Given the arguments of 10 and 20:
->15
+>midpoint(10, 20)  
+15
 
 ## **Limitations**
 1 method
@@ -13,6 +14,9 @@ Given the arguments of 10 and 20:
 ## **Hints**
 Your method should require to arguments  
 User input is not required
+
+## **Concepts**  
+Methods, int, float, operators
 
 ---
 
