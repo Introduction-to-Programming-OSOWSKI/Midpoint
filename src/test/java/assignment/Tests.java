@@ -16,7 +16,9 @@ public class Tests {
    @Test
    public void test(){
        App.main(null);
-       //assertEquals("EXPECTED", App.testMethod(), "ERROR MESSAGE");
+       assertEquals(15.0, App.midpoint(10, 20), "INCORRECT");
+       assertEquals(24.0, App.midpoint(23, 25), "INCORRECT");
+       assertEquals(74.5, App.midpoint(74, 75), "INCORRECT");
    }
 
 }

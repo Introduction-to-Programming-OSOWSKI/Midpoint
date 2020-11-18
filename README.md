@@ -1,14 +1,18 @@
-# **Assignment Title**
+# **Midpoint**
 
 ## **Assignment Description**
-
+Create a method named midpoint that returns the midpoint between two given numbers.
 
 ## **Example**
->
+Given the arguments of 10 and 20:
+>15
 
 ## **Limitations**
+1 method
 
 ## **Hints**
+Your method should require to arguments  
+User input is not required
 
 ---
 
