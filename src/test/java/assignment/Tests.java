@@ -1,6 +1,7 @@
 package assignment;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 //import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -14,11 +15,18 @@ public class Tests {
 
 
    @Test
-   public void test(){
+   public void code(){
        App.main(null);
        assertEquals(15.0, App.midpoint(10, 20), "INCORRECT");
        assertEquals(24.0, App.midpoint(23, 25), "INCORRECT");
        assertEquals(74.5, App.midpoint(74, 75), "INCORRECT");
    }
+
+   @Test
+    public void late() {
+        App.main(null);
+        assertTrue(DueDate.onTime(2020, 12, 22), "Submitted Late");
+    }
+
 
 }
