@@ -1,7 +1,7 @@
 # **Midpoint**
 
 ## **Assignment Description**
-Create a method called midpoint() that find the midpoint between a given int x and a given int y.  
+Create a method called midpoint() that find the midpoint between a given float x and a given float y.  
 Assume that x < y always.
 
 ## **Example**
@@ -16,7 +16,7 @@ The keyboard symbol for divide is /
 The midpoint between two numbers is not always an integer
 
 ## **Concepts**  
-Methods, int, float, operators
+Methods, float, operators
 
 ---
 

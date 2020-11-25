@@ -17,8 +17,8 @@ public class Tests {
    @Test
    public void code(){
        App.main(null);
-       assertEquals(15f, App.midpoint(10, 20), "INCORRECT");
-       assertEquals(24f, App.midpoint(23, 25), "INCORRECT");
+       assertEquals(15.0, App.midpoint(10, 20), "INCORRECT");
+       assertEquals(24.0, App.midpoint(23, 25), "INCORRECT");
        assertEquals(74.5f, App.midpoint(74, 75), "INCORRECT");
    }
 
